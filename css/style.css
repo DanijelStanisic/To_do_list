@@ -1,0 +1,695 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border-image: 0;
+    font-family: "Myriad Pro", Calibri, serif;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(../fonts/MyriadPro/MyriadPro-Regular.otf)
+}
+@font-face {
+    font-family: Calibri;
+    src: url(../fonts/Calibri/calibri.ttf)
+}
+html, body {
+    height: 100%;
+    background-color: #D1E0EB;
+}
+p, a {
+    color: #1A242F;
+}
+section {
+    width: 100%;
+    overflow: hidden;
+}
+header {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+#bgr {
+    background: url("../img/main_background.jpg") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 12%;
+    padding-bottom: 22px;
+}
+#productivity_tool {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+#section_first {
+    position: relative;
+}
+.side_text {
+    width: 48%;
+    float: left;
+    overflow: hidden;
+    padding: 6%;
+}
+.side_text p {
+    font-style: italic;
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+.image {
+    position: relative;
+    overflow: hidden;
+    width: 40%;
+    float: left;
+}
+.image img {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.pdf {
+    position: absolute;
+    float: none !important;
+    width: 18% !important;
+    opacity: 0.7;
+    top: 59%;
+    right: 0;
+    bottom: 0;
+    left: 41%;
+}
+.payhip-button-wrapper {
+    position: absolute;
+    overflow: hidden;
+    bottom: 45px;
+    left: 25%;
+}
+.first_span {
+    text-transform: uppercase;
+}
+.second_span {
+    font-weight: bold;
+}
+#section_second {
+    background-color: rgba(17, 118, 248, 0.8);
+}
+#section_second p {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    color: #F6F6F6;
+}
+.image_holder {
+    margin: 50px 7%;
+}
+.img_div {
+    display: inline-block;
+    overflow: hidden;
+    width: 23%;
+    margin-left: 2%;
+    transition: all 0.7s;
+}
+.help1 {
+    margin-left: 0;
+}
+.img_div:hover {
+    outline: 10px solid #F6F6F6;
+    outline-offset: -10px;
+}
+.img_div:hover .img_caption p {
+    color: #F6F6F6 !important;
+}
+.img_el {
+    overflow: hidden;
+}
+.img_el img {
+    width: 84%;
+    padding: 8%;
+    overflow: hidden;
+}
+.img_caption {
+    height: 180px;
+    overflow: hidden;
+    cursor: auto;
+}
+.img_caption p {
+    text-align: center;
+    color: #1A242F !important;
+    font-size: 21px !important;
+    margin-top: 0 !important;
+    padding: 20px !important;
+}
+/*ol {*/
+    /*width: 48%;*/
+    /*margin: 38px auto 50px;*/
+    /*line-height: 37px;*/
+    /*font-size: 25px;*/
+/*}*/
+/*li {*/
+    /*padding-left: 20px;*/
+/*}*/
+/*ol li:last-child {*/
+    /*padding-left: 0;*/
+/*}*/
+#section_third {
+    position: relative;
+}
+#section_third .payhip-button-wrapper {
+    position: absolute;
+    overflow: hidden;
+    bottom: 45px;
+    left: 66%;
+}
+.help h2 {
+    font-style: normal;
+    font-weight: normal;
+    text-indent: 0;
+    text-align: center;
+}
+ul {
+    width: 61%;
+    margin: 38px auto 25px;
+    line-height: 37px;
+    font-size: 25px;
+}
+ul li {
+    padding-left: 5px;
+}
+ul li:first-child {
+    font-weight: bold;
+}
+.help p {
+    font-style: normal;
+    font-size: 30px !important;
+    font-weight: bold;
+    padding: 0;
+}
+#section_fourth {
+    padding: 80px 0;
+    background-color: rgba(0, 121, 138, 0.8);
+}
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+#cites {
+    width: 52%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+#cites p {
+    margin-top: 35px;
+}
+#cites p span {
+    font-style: normal;
+    font-weight: bold;
+    display: inline-block;
+}
+footer {
+    background-color: #1A242F;
+    color: white;
+}
+address {
+    font-size: 22px;
+    font-style: normal;
+    padding: 10px 4%;
+}
+address a {
+    text-decoration: none;
+    color: #378BF5;
+}
+address a:hover {
+    color: rgb(0, 121, 138);
+    transition: 0.6s ease;
+}
+address img {
+    width: 49px;
+    padding-left: 14px;
+}
+footer p {
+    color: #fff;
+}
+.stripe {
+    padding-top: 3px;
+    overflow: hidden;
+}
+.stripe p:first-child {
+     float: left;
+}
+.stripe p:last-child {
+    float: right;
+}
+
+
+
+@media all and (max-width: 1199px) and (min-width: 979px) {
+    .side_text {
+        width: 50%;
+        padding: 5%;
+    }
+    .side_text p {
+        font-size: 26px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        padding: 15px;
+    }
+    .img_caption p {
+        font-size: 18px !important;
+        padding: 19px !important;
+    }
+    ul {
+        width: 85%;
+        font-size: 20px;
+    }
+    .help p {
+        font-style: normal;
+        font-size: 30px !important;
+        font-weight: bold;
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 978px) and (min-width: 768px) {
+    .side_text {
+        width: 50%;
+        padding: 4%;
+    }
+    .side_text p {
+        font-size: 23px;
+        line-height: 35px;
+        letter-spacing: 1px;
+        padding: 12px;
+    }
+    .image {
+        width: 42%;
+    }
+    .payhip-button-wrapper {
+        left: 22%;
+        bottom: 30px;
+    }
+    #section_second p {
+        font-size: 36px;
+    }
+    .image_holder {
+        margin: 50px 4%;
+    }
+    .img_el img {
+        width: 76%;
+        padding: 12%;
+    }
+    .img_caption p {
+        font-size: 17px !important;
+        padding: 20px 12px !important;
+    }
+    .img_div:hover {
+        outline: 7px solid #F6F6F6;
+        outline-offset: -7px;
+    }
+    .help {
+        width: 54%;
+        float: left;
+        overflow: hidden;
+        padding: 2%;
+    }
+    ul {
+        width: 87%;
+        margin: 20px auto 25px;
+        line-height: 29px;
+        font-size: 18px;
+    }
+    .help p {
+        font-style: normal;
+        font-size: 26px !important;
+        font-weight: bold;
+        padding: 0;
+    }
+    #section_third .payhip-button-wrapper {
+        bottom: 30px;
+    }
+    #cites {
+        width: 65%;
+        font-size: 20px;
+    }
+    address {
+        font-size: 19px;
+        padding: 8px 4%;
+    }
+    address img {
+        width: 48px;
+        padding-left: 12px;
+        height: 23px;
+    }
+}
+
+@media all and (max-width: 767px) and (min-width: 550px) {
+    h1 {
+        font-size: 41px;
+        padding-bottom: 12px;
+    }
+    #productivity_tool {
+        font-size: 23px;
+    }
+    #section_first {
+        position: static;
+    }
+    .side_text {
+        width: 84%;
+        padding: 8%;
+        padding-bottom: 20%;
+        position: relative;
+    }
+    .side_text p {
+        font-size: 25px;
+        line-height: 32px;
+        text-align: center;
+        padding: 5px;
+    }
+    .payhip-button-medium {
+        font-size: 14px !important;
+        line-height: normal !important;
+        padding: 8px 12px !important;
+    }
+    .image {
+        width: 100%;
+    }
+    .image img {
+        width: 100%;
+    }
+    .payhip-button-wrapper {
+        bottom: -280px;
+        left: 39%;
+    }
+    #section_second p {
+        font-size: 31px;
+        margin-top: 50px;
+        padding: 0 10%;
+    }
+    .image_holder {
+        margin: 50px 5% 0 5%;
+    }
+    .img_div {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    .img_div:hover {
+        outline: 8px solid #F6F6F6;
+        outline-offset: -8px;
+    }
+    .help3 {
+        margin-left: 0;
+    }
+    .img_el img {
+        width: 66%;
+        padding: 23px 17%;
+    }
+    .img_caption {
+        height: 160px;
+    }
+    .img_caption p {
+        font-size: 20px !important;
+        padding: 20px 18px !important;
+    }
+    .help {
+        width: 84%;
+        padding: 8%;
+        padding-bottom: 100px;
+    }
+    h2 {
+        padding-bottom: 0;
+    }
+    ul {
+        width: 67%;
+        margin: 38px auto 35px;
+        line-height: 30px;
+        font-size: 22px;
+    }
+    .help p {
+        font-style: normal;
+        font-size: 28px !important;
+        font-weight: bold;
+        padding: 0;
+    }
+    #section_third .payhip-button-wrapper {
+        bottom: 30px;
+        left: 39%;
+    }
+    #section_fourth {
+        padding: 50px 0;
+    }
+    #cites {
+        width: 77%;
+        font-size: 22px;
+    }
+    #cites p {
+        margin-top: 32px;
+    }
+    address {
+        font-size: 17px;
+        padding: 7px 4%;
+    }
+    address img {
+        width: 47px;
+        padding-left: 11px;
+        height: 19px;
+    }
+}
+
+@media all and (max-width: 549px) and (min-width: 460px) {
+    h1 {
+        font-size: 39px;
+        padding-bottom: 10px;
+        margin-top: 17%;
+    }
+    #productivity_tool {
+        font-size: 21px;
+    }
+    #section_first {
+        position: static;
+    }
+    .side_text {
+        width: 88%;
+        padding: 6%;
+        padding-bottom: 20%;
+        position: relative;
+    }
+    .side_text p {
+        font-size: 23px;
+        line-height: 31px;
+        text-align: center;
+        padding: 5px;
+        letter-spacing: 1px;
+    }
+    .payhip-button-medium {
+        font-size: 13px !important;
+        line-height: normal !important;
+        padding: 8px 11px !important;
+    }
+    .image {
+        width: 100%;
+    }
+    .image img {
+        width: 100%;
+    }
+    .payhip-button-wrapper {
+        bottom: -250px;
+        left: 39%;
+    }
+    #section_second p {
+        font-size: 28px;
+        margin-top: 40px;
+        padding: 0 10%;
+    }
+    .image_holder {
+        margin: 50px 5% 0 5%;
+    }
+    .img_div {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    .img_div:hover {
+        outline: 7px solid #F6F6F6;
+        outline-offset: -7px;
+    }
+    .help3 {
+        margin-left: 0;
+    }
+    .img_el img {
+        width: 66%;
+        padding: 23px 17%;
+    }
+    .img_caption {
+        height: 165px;
+    }
+    .img_caption p {
+        font-size: 18px !important;
+        padding: 10px 18px !important;
+    }
+    .help {
+        width: 84%;
+        padding: 8%;
+        padding-bottom: 90px;
+    }
+    h2 {
+        padding-bottom: 0;
+        font-size: 22px;
+    }
+    ul {
+        width: 83%;
+        margin: 38px auto 30px;
+        line-height: 28px;
+        font-size: 19px;
+    }
+    .help p {
+        font-size: 26px !important;
+    }
+    #section_third .payhip-button-wrapper {
+        bottom: 30px;
+        left: 39%;
+    }
+    #section_fourth {
+        padding: 40px 0;
+    }
+    #cites {
+        width: 84%;
+        font-size: 19px;
+    }
+    #cites p {
+        margin-top: 31px;
+    }
+    address {
+        font-size: 16px;
+        padding: 7px 4%;
+    }
+    address img {
+        width: 46px;
+        padding-left: 10px;
+        height: 19px;
+    }
+}
+
+@media all and (max-width: 459px) {
+    h1 {
+        font-size: 31px;
+        padding-bottom: 6px;
+        margin-top: 17%;
+    }
+    #productivity_tool {
+        font-size: 17px;
+    }
+    #section_first {
+        position: static;
+    }
+    .side_text {
+        width: 88%;
+        padding: 6%;
+        padding-bottom: 24%;
+        position: relative;
+    }
+    .side_text p {
+        text-indent: 0;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        padding: 5px;
+    }
+    .payhip-button-medium {
+        font-size: 12px !important;
+        line-height: normal !important;
+        padding: 6px 10px !important;
+    }
+    .image {
+        width: 100%;
+    }
+    .image img {
+        width: 100%;
+    }
+    .payhip-button-wrapper {
+        bottom: -230px;
+        left: 37%;
+    }
+    #section_second p {
+        font-size: 23px;
+        margin-top: 30px;
+        padding: 0 10%;
+    }
+    .image_holder {
+        margin: 30px 15%;
+    }
+    .img_div {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+    .img_div:hover {
+        outline: 6px solid #F6F6F6;
+        outline-offset: -6px;
+    }
+    .img_el img {
+        width: 70%;
+        padding: 15px 15%;
+    }
+    .img_caption {
+        height: 125px;
+    }
+    .img_caption p {
+        font-size: 17px !important;
+        padding: 10px 18px !important;
+    }
+    .help {
+        width: 84%;
+        padding: 8%;
+        padding-bottom: 90px;
+    }
+    h2 {
+        padding-bottom: 0;
+        font-size: 19px;
+    }
+    ul {
+        width: 83%;
+        margin: 30px auto 30px;
+        line-height: 22px;
+        font-size: 15px;
+    }
+    .help p {
+        font-size: 24px !important;
+    }
+    #section_third .payhip-button-wrapper {
+        bottom: 26px;
+        left: 39%;
+    }
+    #section_fourth {
+        padding: 30px 0;
+    }
+    #cites {
+        width: 84%;
+        font-size: 15px;
+    }
+    #cites p {
+        margin-top: 23px;
+    }
+    address {
+        font-size: 13px;
+        padding: 4px 4%;
+    }
+    address img {
+        width: 41px;
+        padding-left: 7px;
+        height: 16px;
+    }
+}
